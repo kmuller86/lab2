@@ -1,9 +1,12 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
+
+
     public static void main(String[] args) {
+
+
         /* ćwiczenie 5 Metody */
 
         /* zad.1
@@ -38,5 +41,34 @@ public class Main {
         */
 
     }
+    //zad1
+    int tab[] = new int[20];
+    public void dodaj(int dodaj)
+    {
+
+    }
+    //zad2
+
+
+    String tab1[] = new String[6];
+    Scanner scan = new Scanner(System.in);
+    public void metoda() {
+
+        for (int i = 0; i < 6; i++)
+
+            tab1[i] = scan.nextLine();
+    }
+    public void wypisz()
+    {
+        for(int i = 0; i < 6; i++)
+            System.out.println(tab1[i]);
+    }
 
 }
+
+
+
+
+
+
+
