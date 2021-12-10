@@ -23,13 +23,10 @@ public class Main {
 
 
 
-
-
-
-
         /* zad.2 Napisz program który będzie uzupełniał tablicę 5-cio elementową int[] liczbami
          * wprowadzanymi z klawiatury (użyć klasy Scanner), a następnie będzie wyświetlał elementy tablicy
          * za pomocą pętli forEach powiększone o 11 */
+
         int n = 5;
         Scanner sc = new Scanner(System.in);
         int[] array = new int[n];
@@ -43,25 +40,6 @@ public class Main {
         {
             System.out.println(array[i] + 11);
         }
-
-
-        Scanner scan = new Scanner(System.in);
-        int[] tab = new int[5];
-
-
-        System.out.println("podaj liczbe");
-        String tekst = scan.next();
-        for(int zmienna :tab)
-        {
-            System.out.println(zmienna + " ");
-        }
-
-
-
-
-
-
-
 
 
     }
