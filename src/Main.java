@@ -19,7 +19,7 @@ public class Main {
         Scanner console = new Scanner(System.in);
         System.out.print("Wpisz liczbę: ");
         a = console.nextInt();
-
+        /* a gdzie default:?  */
         switch (a % 2)
         {
             case 0 :
