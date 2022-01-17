@@ -12,6 +12,7 @@ public class Main {
         int a = 4;
         for (int i = 100; i >= 0; i--)
         {
+         /* Tu chyba powinno być if (i % a3 == 0 && i !=0) bo w konsoli wypisuje zle wartości np. "3 / 4 = 0" */
             if (i % 3 == 0 && i !=0) {
                 System.out.println( i + " / " + a + " = " + i/a);
             }
